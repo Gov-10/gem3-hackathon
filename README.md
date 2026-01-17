@@ -13,3 +13,8 @@ gunicorn djangoproj.asgi:application -k uvicorn.workers.UvicornWorker
 npm install
 npm run dev
 ```
+### 3. Fastapi (agentic service)
+```bash
+cd agenticService
+uvicorn main:app --reload --port 8080
+```
